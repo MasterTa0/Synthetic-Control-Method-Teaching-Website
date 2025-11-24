@@ -1,5 +1,4 @@
-## 合成控制法 👋
-
+## 合成控制法
 <!--
 **MasterTa0/MasterTa0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
