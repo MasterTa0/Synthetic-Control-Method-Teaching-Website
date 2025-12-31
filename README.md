@@ -1,6 +1,5 @@
 ## 合成控制法教学网页
-https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/
-这是一个关于讲解因果推断中的推断工具的一种----合成控制法讲解的教学网页
+https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/这是一个关于讲解因果推断中的推断工具的一种----合成控制法讲解的教学网页
 <!--
 **MasterTa0/MasterTa0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
