@@ -10,8 +10,7 @@
   </a>
 </p>
 
-在线访问：
-<a href="https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/">https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/</a>
+
 
 </div>
 
