@@ -1,48 +1,50 @@
-<h1 align="center">
-  <!-- 可选：把下方 logo 路径替换成你仓库里实际存在的图片（例如 ./assets/logo.png） -->
-  <img src="./assets/logo.png" alt="SCM" width="128" />
-  <br>
-  合成控制法（Synthetic Control Method）教学网站
-  <br>
-</h1>
+<div align="center">
 
-<h3 align="center">
+# 合成控制法（Synthetic Control Method, SCM）教学网站
+
 因果推断课程 · 针对“单一/少数处理单位”的面板政策评估工具（SCM）
-</h3>
 
-<p align="center">
-  在线访问：
-  <a href="https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/">GitHub Pages</a>
+<p>
+  <a href="https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/">
+    <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-Online-blue" />
+  </a>
+  <img alt="Topic" src="https://img.shields.io/badge/Topic-Causal%20Inference-informational" />
+  <img alt="Method" src="https://img.shields.io/badge/Method-Synthetic%20Control-success" />
 </p>
 
-<p align="center">
-  模块导航：
-  概览 · 形式化定义 · 公式推导 · 理论与证明 · 与其他方法对比 · 经典案例 · 参考文献
-</p>
+在线访问：
+<a href="https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/">https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/</a>
+
+</div>
 
 ---
 
-## Preview
+## 目录
 
-| Overview（概览）                 | Applications（经典案例）              |
-| -------------------------------- | ------------------------------------- |
-| ![overview](./docs/preview_overview.png) | ![applications](./docs/preview_applications.png) |
-
-> 说明：如果你仓库里还没有预览图，可以先把这两张占位图删掉，或把路径改成你实际放置的截图文件。
+- [Access](#access)
+- [Course Outline](#course-outline)
+- [Learning Objectives](#learning-objectives)
+- [Local Preview](#local-preview)
+- [Deployment (GitHub Pages)](#deployment-github-pages)
+- [References](#references)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
 ## Access
 
-直接打开在线版本即可学习与引用：
+- Web（GitHub Pages）：
+  https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/
 
-- Web: https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/
+> 说明：你之前 README 里引用了 `./assets/logo.png`、`./docs/preview_*.png`，但仓库中未提供对应文件，GitHub 会显示“破图”。
+> 本版本 README 默认不引用本地图片，避免渲染失败；如需展示截图，可在 `docs/` 下补充图片后再加回引用。
 
 ---
 
 ## Course Outline
 
-本项目以“一讲可用”的课程讲义为目标，建议按顺序学习；也可按需跳转到案例与实务部分。
+网站内容以“从直觉到推导再到实证”的学习路径组织，建议按顺序阅读；也可按需跳转到案例与实务部分。
 
 1. **直观理解与适用场景**
    - 直觉：合成“影子世界”
@@ -63,23 +65,23 @@
    - 证明框架梳理（教学版）
 
 5. **与其他方法对比**
-   - DiD、Matching、ITS 等方法的典型场景与关键假设
-   - SCM 与 DiD 的关系（“等权重 SCM”视角等）
+   - DiD、Matching、ITS 等方法的关键假设与适用边界
+   - SCM 与 DiD 的联系与差异
 
-6. **经典案例与练习示例**
-   - 巴斯克恐怖主义与经济损失（教学用示例数据 + 步骤流程）
-   - 加州控烟政策 Proposition 99（R / Python 通用思路 + 练习任务）
+6. **经典案例与练习**
+   - 巴斯克恐怖主义与经济损失
+   - 加州控烟政策 Proposition 99
 
 7. **实务要点与进一步阅读**
    - 拟合质量诊断、对照库选择
-   - Placebo / 灵敏度分析的实务建议
-   - 推荐阅读（经典文献清单）
+   - Placebo / 灵敏度分析
+   - 推荐阅读与扩展方向
 
 ---
 
 ## Learning Objectives
 
-完成学习后，你应该能够：
+完成学习后，你应能够：
 
 - 解释 SCM 的适用场景、核心直觉与局限性
 - 写出 SCM 的关键记号（潜在结果、权重约束、合成对照）
@@ -92,10 +94,10 @@
 
 ## Local Preview
 
-如果你想在本地浏览（不改代码也可用），推荐用“静态服务器”方式启动：
+本项目为静态网页，建议用本地静态服务器预览：
 
-### Option A: Python（推荐）
+### Option A: Python
 
 ```bash
 python3 -m http.server 8000
-# 然后浏览器打开：http://localhost:8000
+# 浏览器打开：http://localhost:8000
