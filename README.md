@@ -3,13 +3,11 @@
 # 合成控制法（Synthetic Control Method, SCM）教学网站
 
 因果推断课程 · 针对“单一/少数处理单位”的面板政策评估工具（SCM）
-
+- Web（GitHub Pages）：
 <p>
   <a href="https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/">
     <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-Online-blue" />
   </a>
-  <img alt="Topic" src="https://img.shields.io/badge/Topic-Causal%20Inference-informational" />
-  <img alt="Method" src="https://img.shields.io/badge/Method-Synthetic%20Control-success" />
 </p>
 
 在线访问：
@@ -34,8 +32,6 @@
 
 ## Access
 
-- Web（GitHub Pages）：
-  https://masterta0.github.io/Synthetic-Control-Method-Teaching-Website/
 
 > 说明：你之前 README 里引用了 `./assets/logo.png`、`./docs/preview_*.png`，但仓库中未提供对应文件，GitHub 会显示“破图”。
 > 本版本 README 默认不引用本地图片，避免渲染失败；如需展示截图，可在 `docs/` 下补充图片后再加回引用。
